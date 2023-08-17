@@ -9,7 +9,7 @@ def getUserInfo(username):
   user_data = requests.get("https://countik.com/api/userinfo/"+user_id).json()
   user_data["nickname"]=nickname
   return user_data
-
+ 
 
 def getUserVideo(username):
   #on obtiens l'user id de countik

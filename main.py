@@ -1,7 +1,7 @@
 from flask import Flask
 import api
 
-app = Flask('app')
+app = Flask('app') 
 
 @app.route('/profile/<username>')
 def profile(username):
